@@ -1,0 +1,35 @@
+version = 1
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "kotlin"
+
+  [analyzers.meta]
+  runtime_version = "1.8"
+  language_version = "1.7"
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/jayb25/Buffer-Overflow-Guide"
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
